@@ -1,0 +1,44 @@
+/* =========================================================== 
+   Practice CSS Box Model 
+============================================================== */
+
+.box {
+  
+  /* Apply a fluid width of 90% and a height of 300px. 
+  The width of .box should get no wider than 600px. */  
+
+
+  /* Add 20 pixels of padding on all four sides. */
+
+  
+  /* Apply a 2px solid border to each side. */
+
+  
+  /* Use margins to center .box on the page. */
+
+  
+  /* Prevent the contents of .box from overflowing. */
+
+  
+  /* Force border-width and padding values into the total width and height of .box */
+
+  
+}
+
+/* we used max-width to prevent the width from getting wider */
+/* adding a fixed height of 300px caused the contents to overflow. so use the overflow property to fix that.
+can use: "overflow: auto" or "overflow: scroll".. to ensure a verticle scroll bar, do: "overflow-y: scroll" */
+/* The box-sizing property allows us to include the padding and border in an element's total width and height.
+If you set box-sizing: border-box; on an element, padding and border are included in the width and height.. */
+
+.box {
+  width: 90%;
+  height: 300px;
+  max-width: 600px;
+  padding: 20px;
+  border: 2px solid magenta;
+  margin: auto;
+  overflow: scroll;
+  box-sizing: border-box;
+
+}
