@@ -16,10 +16,11 @@ article, aside, footer {
 }
 
 html {
-    font-size: 1.125em; 
+    font-size: 1.25em; 
 }
 
 /* 1.125em = 18 px */
+/* 1.25em=20 px */
 
 header {
     background-color: #294969;
@@ -30,6 +31,17 @@ header {
     margin: -8px -8px 20px;
 }
 
+aside img, #bio {
+    width: 100%;
+    max-width: 480px;
+}
+
+#bio {
+    padding: 2rem;
+    border: 5px solid tomato;
+    background-color: mistyrose;
+}
+
 footer {
     width: 200px;
     padding: 4px;
@@ -38,15 +50,4 @@ footer {
     color: #294969;
     font-size: .8rem;
     text-align: center;
-}
-
-aside img {
-    width: 600px;
-}
-
-#bio {
-    width: 600px;
-    padding: 2rem;
-    border: 5px solid tomato;
-    background-color: mistyrose;
 }
