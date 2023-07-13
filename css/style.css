@@ -23,12 +23,20 @@ html {
 /* 1.25em=20 px */
 
 header {
+    height: 25vh;
     background-color: #294969;
     color: ghostwhite;
     padding: 10px 15px;
     border: 12px solid #ffa949;
     border-bottom-color: magenta;
     margin: -8px -8px 20px;
+}
+
+section {
+    min-height: 100vh;
+    padding: 1rem;
+    border-bottom: 2px dotted hotpink;
+    background-color: azure;
 }
 
 aside img, #bio {
