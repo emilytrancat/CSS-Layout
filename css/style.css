@@ -11,6 +11,16 @@ article, aside, footer {
     margin-top: -50px
 } */
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.125em; 
+}
+
+/* 1.125em = 18 px */
+
 header {
     background-color: #294969;
     color: ghostwhite;
@@ -28,4 +38,15 @@ footer {
     color: #294969;
     font-size: .8rem;
     text-align: center;
+}
+
+aside img {
+    width: 600px;
+}
+
+#bio {
+    width: 600px;
+    padding: 2rem;
+    border: 5px solid tomato;
+    background-color: mistyrose;
 }
