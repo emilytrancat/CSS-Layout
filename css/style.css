@@ -39,6 +39,16 @@ section {
     background-color: azure;
 }
 
+/* a {
+    display: block;
+    width: 400px;
+    background-color: pink;
+} */
+
+.hide {
+    display: none;
+}
+
 aside img, #bio {
     width: 100%;
     max-width: 480px;
@@ -57,5 +67,13 @@ footer {
     margin: 30px auto 15px;
     color: #294969;
     font-size: .8rem;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    width: 30%;
+    padding: 10px 0;
+    background-color: yellow;
     text-align: center;
 }
