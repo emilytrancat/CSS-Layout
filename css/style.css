@@ -46,6 +46,16 @@ section {
     background-color: azure;
 }
 
+.small-img {
+    float: left;
+    width: 300px;
+    margin: 0 1rem 1rem 0;
+}
+
+.clear {
+    clear: both;
+}
+
 /* a {
     display: block;
     width: 400px;
