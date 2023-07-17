@@ -23,13 +23,20 @@ html {
 /* 1.25em=20 px */
 
 header {
-    height: 25vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #294969;
     color: ghostwhite;
     padding: 10px 15px;
     border: 12px solid #ffa949;
     border-bottom-color: magenta;
     margin: -8px -8px 20px;
+}
+
+article {
+    margin-top: 3rem;
 }
 
 section {
@@ -52,6 +59,17 @@ section {
     right: 10px;
     background-color: yellow;
 } */
+
+#interesting-banner {
+    position: sticky;
+    top: 0;
+    padding: 10px 15px;
+    border: 12px solid lightcoral;
+    margin: 0 -8px;
+    background: firebrick;
+    color: white;
+    font-weight: bold;
+}
 
 
 .hide {
